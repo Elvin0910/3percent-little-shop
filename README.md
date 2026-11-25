@@ -2,7 +2,7 @@
 
 A small, browser-local San Francisco gift-shop game built around the approved 3PERCENT concept art.
 
-**Current source:** Neighborhood v2, frozen build identity `93173ca1f16a4242ac9f5f023dd84d9d808c7f4d0931ceae3ac679bb4815f773`. This private repository is the intended main source after GitHub push verification. It does not publish a new game version or change the existing Sites preview.
+**Current source:** Neighborhood v2, frozen build identity `93173ca1f16a4242ac9f5f023dd84d9d808c7f4d0931ceae3ac679bb4815f773`. This private repository is the main source for further development. It does not publish a new game version or change the existing Sites preview.
 
 ## Run locally
 
@@ -45,8 +45,7 @@ Progress is saved in this browser under the stable key `threepercent-little-shop
 - `dist/product-art.js`: shared ceramic coloring used by the workbench and cached shelf sprites.
 - `dist/config.js`: editable brand and asset configuration.
 - `dist/assets/`: the background and independently replaceable transparent sprite atlases.
-- `tests/game-state.test.mjs`: focused game-state checks.
-- `.openai/hosting.json`: the private Site identity and static deployment configuration.
+- `tests/game-state.test.mjs`: focused game-state checks.- `tools/export_zip.sh`: exports committed source for offline collaborators.
 
 ## Replace art later
 
